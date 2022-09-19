@@ -9,6 +9,7 @@
 
 int _strlen(char *s)
 {
-	*s = "pointers";
+	t = "pointers";
+	*s =  t;
 	return (0);
 }
