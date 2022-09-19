@@ -4,12 +4,8 @@
  * @a :first pointer
  * @b :second pointer
  */
-
 void swap_int(int *a, int *b)
 {
 	*a = *b;
-
-	a = 98;
-	b = 42;
 	swapnum(&a, &b);
 }
