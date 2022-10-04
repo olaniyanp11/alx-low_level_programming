@@ -1,14 +1,14 @@
+#include "main.h"
 #include <stdio.h>
-#include <main.h>
 #include <stdlib.h>
- /**
-  * create_array - prints the size of an array of chars.
-  * @c: the address of memory to print
-  * @i: the increment value
-  * @size: the size of the memory to print
-  *
-  * Return : nothing
-  */
+/**
+ * create_array - prints the size of an array of chars.
+ * @size: size of the array.
+ * @c: character variable
+ *
+ * Return: NULL
+*/
+
 char *create_array(unsigned int size, char c)
 {
 	char *ptr;
@@ -18,14 +18,18 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
+
 	ptr = malloc(sizeof(c) * size);
+
 	if (ptr == NULL)
 	{
 		return (NULL);
 	}
+
 	for (i = 0; i < size; i++)
 	{
 		ptr[i] = c;
 	}
+
 	return (ptr);
 }
