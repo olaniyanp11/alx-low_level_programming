@@ -1,3 +1,3 @@
-#starting the second malloc tasks./n
+#starting the second malloc tasks.
 so help me 
 #added a readme file
