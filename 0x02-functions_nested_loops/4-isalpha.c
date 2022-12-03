@@ -12,7 +12,6 @@ int _isalpha(int c)
 	}
 	else if (c > 64 && c < 91)
 		return (1);
-	else 
+	else
 		return (0);
 }
-
