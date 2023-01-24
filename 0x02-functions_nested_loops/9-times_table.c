@@ -43,6 +43,6 @@ void times_table(void)
 				_putchar(space);
 			}
 		}
-		printf("\n");
+		_putchar('\n');
 	}
 }
